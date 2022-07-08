@@ -1,10 +1,11 @@
-
-import './App.css';
+import "./App.css";
+import Button from "./components/atoms/button";
 
 function App() {
   return (
     <div className="App">
-     <p>Hello once again</p>
+      <Button />
+      <p>Hello once again</p>
     </div>
   );
 }
